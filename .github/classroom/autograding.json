@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Example 1",
+      "setup": "javac src/SumExceptSelf.java",
+      "run": "java -cp src SumExceptSelf",
+      "input": "4\n4 3 2 10",
+      "output": "15 16 17 9",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Small Array (n=2)",
+      "setup": "javac src/SumExceptSelf.java",
+      "run": "java -cp src SumExceptSelf",
+      "input": "2\n10 20",
+      "output": "20 10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
